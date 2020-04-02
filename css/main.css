@@ -1425,6 +1425,14 @@ header .logo a {
  * --------------------------------------------------------------- 
  */
 @media only screen and (max-width:1024px) {
+    #intro{
+        background: #151515 url(../images/intro-bg-media.jpg) no-repeat center bottom;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        filter: brightness(1.8) contrast(1.3);
+    }
 	.intro-content h1 {
 		font-size: 7.6rem;
 	}
@@ -1437,6 +1445,12 @@ header .logo a {
 }
 @media only screen and (max-width:768px) {
 	#intro {
+    	background: #151515 url(../images/intro-bg-media.jpg) no-repeat center bottom;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        filter: brightness(1.8) contrast(1.3);
 		min-height: 660px;
 	}
 	.intro-content h1 {
@@ -1457,6 +1471,12 @@ header .logo a {
 }
 @media only screen and (max-width:600px) {
 	#intro {
+        background: #151515 url(../images/intro-bg-media.jpg) no-repeat center bottom;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        filter: brightness(1.8) contrast(1.3);
 		min-height: 600px;
 	}
 	.intro-content h1 {
